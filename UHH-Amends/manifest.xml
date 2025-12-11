@@ -18,8 +18,8 @@
     https://github.com/chummer5a/chummer5a
 -->
 <manifest xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../manifest.xsd">
-  <guid>e5a22582-b602-4840-b5a4-ccba51c748fc</guid>
-  <version>1.1</version>
+  <guid>46cf3c17-097c-4074-a635-f63bf29cef48</guid>
+  <version>1.2</version>
   <authors>
     <author>
       <name>Finn</name>
@@ -28,7 +28,7 @@
   </authors>
   <descriptions>
     <description>
-      <text>This custom data file contains the house rules of the the UHH Physics LCC</text>
+      <text>This custom data file contains the house rules of the the UHH Physics LCC (without the metatypes changes)</text>
       <lang>en-us</lang>
     </description>
   </descriptions>

@@ -97,6 +97,21 @@
 			</specs>
 		</skill>
 		<skill>
+			<name>Medicine</name>
+			<skillgroup amendoperation="replace">Biotech</skillgroup>
+			<specs amendoperation="replace">
+				<spec>Cosmetic Surgery</spec>
+				<spec>Extended Care</spec>
+				<spec>Implant Surgery</spec>
+				<spec>Magical Health</spec>
+				<spec>Organ Culture</spec>
+				<spec>Trauma Surgery</spec>
+				<spec>Veterinary</spec>
+				<spec>Biotechnology</spec>
+				<spec>Cybertechnology</spec>
+			</specs>
+		</skill>
+		<skill>
 			<name>Pilot Watercraft</name>
 			<skillgroup amendoperation="replace">Piloting</skillgroup>
 		</skill>
@@ -124,21 +139,11 @@
 			<name>Chemistry</name>
 			<skillgroup amendoperation="replace">Biotech</skillgroup>
 		</skill>
-		<skill>
-			<name>Medicine</name>
-			<skillgroup amendoperation="replace">Biotech</skillgroup>
-		</skill>
-		<skill>
-			<name>Biotechnology</name>
-			<skillgroup amendoperation="replace">Biotech</skillgroup>
-		</skill>
-		<skill>
-			<name>Cybertechnology</name>
-			<skillgroup amendoperation="replace">Biotech</skillgroup>
-		</skill>
 		<skill xpathfilter="name = 'Free-Fall'" amendoperation="remove" />
 		<skill xpathfilter="name = 'Diving'" amendoperation="remove" />
 		<skill xpathfilter="name = 'Pilot Walker'" amendoperation="remove" />
 		<skill xpathfilter="name = 'Instruction'" amendoperation="remove" />
+		<skill xpathfilter="name = 'Cybertechnology'" amendoperation="remove" />
+		<skill xpathfilter="name = 'Biotechnology'" amendoperation="remove" />
 	</skills>
 </chummer>

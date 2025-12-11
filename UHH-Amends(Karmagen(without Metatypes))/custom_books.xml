@@ -34,5 +34,15 @@
             <name>Zen Den Rules Document</name>
             <code>ZDR</code>
         </book>
+        <book>
+			<id>b57913fc-8cc5-4b25-982d-49f9eaa8a9c2</id>
+            <name>Neo Anarchists Cookbook</name>
+            <code>NAC</code>
+        </book>
+        <book>
+			<id>b1dc9022-0a8c-4077-9292-82c2b26e2458</id>
+            <name>A Light in the Dark</name>
+            <code>ALitD</code>
+        </book>
     </books>
 </chummer>
