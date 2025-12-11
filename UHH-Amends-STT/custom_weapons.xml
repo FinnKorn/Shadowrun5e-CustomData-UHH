@@ -1,0 +1,71 @@
+<!-- This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+ -->
+<chummer>
+    <weapons>
+        <weapon>
+            <id>88c468fd-0b14-411f-9cd1-166c4122afe0</id>
+            <name>Shotgun Palm/Knee</name>
+            <category>Unarmed</category>
+            <type>Melee</type>
+            <conceal>0</conceal>
+            <accuracy>Physical</accuracy>
+            <reach>0</reach>
+            <damage>12P</damage>
+            <ap>-1</ap>
+            <mode>SS</mode>
+            <rc>0</rc>
+            <ammo>1(ml)</ammo>
+            <avail>0</avail>
+            <cost>0</cost>
+            <source>6e</source>
+            <page>1</page>
+            <cyberware>True</cyberware>
+            <hide/>
+            <spec>Cyber Implants</spec>
+            <useskill>Unarmed Combat</useskill>
+            <ammocategory>Shotguns</ammocategory>
+        </weapon>
+        <weapon>
+            <id>a5f25e97-fd9e-4246-94b3-f1291450b234</id>
+            <name>Tesla Coil</name>
+            <category>Exotic Ranged Weapons</category>
+            <type>Ranged</type>
+            <conceal>0</conceal>
+            <accuracy>6</accuracy>
+            <reach>0</reach>
+            <damage>12S(e)</damage>
+            <ap>-5</ap>
+            <mode>SA/BF</mode>
+            <rc>0</rc>
+            <ammo>2x10(c) or External Source</ammo>
+            <avail>0</avail>
+            <cost>0</cost>
+            <source>6e</source>
+            <page>1</page>
+            <accessories>
+            <accessory>
+            <name>Internal Smartgun System</name>
+            </accessory>
+            </accessories>
+            <range>Flamethrowers</range>
+            <cyberware>True</cyberware>
+            <hide/>
+        </weapon>
+    </weapons>
+</chummer>
