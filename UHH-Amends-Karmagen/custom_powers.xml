@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<chummer>
+  <powers>
+    <power>
+      <id>281B1842-389A-41B8-BD91-B6EE8711D827</id>
+      <name>Dash</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <source>6e</source>
+      <page>1</page>
+      <bonus>
+        <sprintbonus>
+          <category>Ground</category>
+          <val>Rating * 100</val>
+        </sprintbonus>
+      </bonus>
+    </power>
+    <power>
+      <id>79b41c96-e28a-432b-bcc7-f9ed88435175</id>
+      <name>Distance Strike</name>
+      <points>1.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>6e</source>
+      <page>1</page>
+      <required>
+        <oneof>
+          <power>Killing Hands</power>
+        </oneof>
+      </required>
+      <action>Complex</action>
+      <adeptway>1</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      May make a ranged Unarmed attack against anyone up to (MAG) meters away. Applies any applicable powers and augmentations which were paid for via essence.
+      </notes>
+    </power>
+    <power>
+      <id>f79be704-bb73-4606-bd39-532b651ce8c2</id>
+      <name>Quick March</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>6e</source>
+      <page>1</page>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+            <quality>The Athlete's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      The adept can Run for (MAG) hours or Sprint for (MAG/2) hours without suffering fatigue.
+      </notes>
+    </power>
+    <power>
+      <id>42e4619b-5c00-46b8-a5c1-d049949314a9</id>
+      <name>Nail Driver</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>6e</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+            <quality>The Athlete's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <bonus>
+        <weaponskillaccuracy>
+          <name>Clubs</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Blades</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Unarmed</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <name>Monofilament Weapons</name>
+          <value>-1</value>
+        </weaponskillaccuracy>
+        <weaponskillaccuracy>
+          <value>1</value>
+        </weaponskillaccuracy>
+      </bonus>
+      <notes>
+      +1 Accuracy to all ranged attacks. The effective distance between the adept and their target is reduced by (MAG * 5) meters for range calculations.
+      </notes>
+    </power>
+    <power>
+      <id>a396d1f5-0770-4b57-a3b9-a5cbfb63a315</id>
+      <name>Deflect</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ALitD</source>
+      <page>1</page>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      Allows Interrupt Edge action to reflect a ranged attack
+      </notes>
+    </power>
+    <power>
+      <id>2b78a688-d9ad-4b13-8135-b03fca6874c7</id>
+      <name>Ricochet</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ALitD</source>
+      <page>1</page>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      This power allows the Adept to use the Ricochet Shot called shot (p117 Run and Gun) with almost any type of ranged weapon.
+      </notes>
+    </power>
+    <power>
+			<id>100e8eaf-08cb-42b5-a10f-336c5d780217</id>
+      <name>Burst of Speed</name>
+      <points>1</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>ALitD</source>
+      <page>1</page>
+      <action>Simple</action>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Athlete's Way</quality>
+            <quality>The Invisible Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      This power allows the Adept to use an almost instantainous Dash
+      </notes>
+      <maxlevels>2</maxlevels>
+    </power>
+    <power>
+			<id>807ecaec-a75b-4d26-b438-a9fb3cd949a0</id>
+      <name>Protect Animal</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>ALitD</source>
+      <page>1</page>
+      <adeptway>0.25</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Beast's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <notes>
+      This power allows the Adept to protect an attuned animal companion if it is within Magic*2 Meters
+      </notes>
+    </power>
+    <power>
+			<id>82419c50-b89a-45fa-b533-cf4abc0249d8</id>
+      <name>Magic Missile</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>NAC</source>
+      <page>1</page>
+      <action>Simple</action>
+      <notes>
+      This power allows the Adept to infuse thrown weapons with magical energy as part of the ready weapon simple action.
+      </notes>
+    </power>
+     <power>
+			<id>fcec00e5-9a54-4cac-808e-2cfb648ef755</id>
+      <name>Elemental Missile</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>100</limit>
+      <source>NAC</source>
+      <page>1</page>
+      <bonus>
+        <selecttext xml="strings.xml" xpath="/chummer/elements/element" allowedit="True"/>
+      </bonus>
+      <required>
+        <oneof>
+          <power>Magic Missile</power>
+        </oneof>
+      </required>
+      <notes>
+      This power allows the Adept to infuse thrown weapons with additional elemental energy as part of the ready weapon simple action.
+      </notes>
+    </power>
+    <power>
+			<id>92045c70-9c02-4f3a-ae2e-5b0430a463aa</id>
+      <name>Mystic Archery</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>NAC</source>
+      <page>1</page>
+      <action>Simple</action>
+      <notes>
+      This power allows the Adept to infuse their arrows with magical energy.
+      </notes>
+    </power>
+     <power>
+			<id>38b1c178-8777-4519-a195-71b5baa8b7a9</id>
+      <name>Elemental Quiver</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>100</limit>
+      <source>NAC</source>
+      <page>1</page>
+      <bonus>
+        <selecttext xml="strings.xml" xpath="/chummer/elements/element" allowedit="True"/>
+      </bonus>
+      <required>
+        <oneof>
+          <power>Mystic Archery</power>
+        </oneof>
+      </required>
+      <notes>
+      This power allows the Adept to infuse Arrows with additional elemental energy.
+      </notes>
+    </power>
+    <power>
+			<id>b7d4def0-79c2-497e-9b8b-3a323b17d4f4</id>
+      <name>Ground Stomp</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>NAC</source>
+      <page>1</page>
+      <action>Complex</action>
+      <notes>
+      Adept is able to do a powerful stomp that can unbalance or knock down all targets within a radius of (MAG) meters.
+      </notes>
+    </power>
+  </powers>
+</chummer>
