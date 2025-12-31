@@ -30,7 +30,7 @@
         </oneof>
       </required>
       <action>Complex</action>
-      <adeptway>1</adeptway>
+      <adeptway>0.75</adeptway>
       <adeptwayrequires>
         <required>
           <oneof>
@@ -154,7 +154,7 @@
       <source>ALitD</source>
       <page>1</page>
       <action>Simple</action>
-      <adeptway>0.25</adeptway>
+      <adeptway>0.5</adeptway>
       <adeptwayrequires>
         <required>
           <oneof>
@@ -263,6 +263,14 @@
       <source>NAC</source>
       <page>1</page>
       <action>Complex</action>
+      <adeptway>0.5</adeptway>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
       <notes>
       Adept is able to do a powerful stomp that can unbalance or knock down all targets within a radius of (MAG) meters.
       </notes>
