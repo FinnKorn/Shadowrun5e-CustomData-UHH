@@ -76,7 +76,7 @@
 	<extendanydetectionspell>False</extendanydetectionspell>
 	<allowlimitedspellsforbarehandedadept>False</allowlimitedspellsforbarehandedadept>
 	<dontusecyberlimbcalculation>False</dontusecyberlimbcalculation>
-	<alternatemetatypeattributekarma>False</alternatemetatypeattributekarma>
+	<alternatemetatypeattributekarma>True</alternatemetatypeattributekarma>
 	<reverseattributepriorityorder>False</reverseattributepriorityorder>
 	<allowbiowaresuites>False</allowbiowaresuites>
 	<freespiritpowerpointsmag>False</freespiritpowerpointsmag>
