@@ -2,6 +2,7 @@
 <settings>
 	<id>00000000-0000-0000-0000-000000000000</id>
 	<name>UHH_Rules_Karmagen_Amends</name>
+	<gameplayoptionname />
 	<licenserestricted>False</licenserestricted>
 	<morelethalgameplay>False</morelethalgameplay>
 	<spiritforcebasedontotalmag>False</spiritforcebasedontotalmag>
@@ -223,38 +224,33 @@
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>897f1fb0-69fb-4044-9ea1-d555caebe7bf&gt;1.0</directoryname>
+			<directoryname>7598bef9-fc96-4f2d-a2f0-31c28429efc4&gt;1.0</directoryname>
 			<order>2</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>7598bef9-fc96-4f2d-a2f0-31c28429efc4&gt;1.0</directoryname>
+			<directoryname>90be9581-a053-45ec-b6a8-13b5ae139c09&gt;1.0</directoryname>
 			<order>3</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>90be9581-a053-45ec-b6a8-13b5ae139c09&gt;1.0</directoryname>
+			<directoryname>6fb466e0-fc2e-46af-9e3d-42a4037d80e4&gt;1.0</directoryname>
 			<order>4</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>6fb466e0-fc2e-46af-9e3d-42a4037d80e4&gt;1.0</directoryname>
+			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f&gt;1.0</directoryname>
 			<order>5</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f&gt;1.0</directoryname>
+			<directoryname>46cf3c17-097c-4074-a635-f63bf29cef48&gt;1.2</directoryname>
 			<order>6</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
 			<directoryname>b422724d-42d5-4ef4-bbb3-9dfa3c40cb61&gt;1.0.1</directoryname>
 			<order>7</order>
-			<enabled>True</enabled>
-		</customdatadirectoryname>
-		<customdatadirectoryname>
-			<directoryname>46cf3c17-097c-4074-a635-f63bf29cef48&gt;1.2</directoryname>
-			<order>8</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 	</customdatadirectorynames>
