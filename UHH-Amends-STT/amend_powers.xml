@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chummer>
+    <powers>
+        <power>
+			<name>Critical Strike</name>
+			<bonus amendoperation="replace">
+				<weaponcategorydv>
+					<selectskill limittoskill="Astral Combat,Archery,Blades,Clubs,Unarmed Combat" />
+					<bonus>1</bonus>
+				</weaponcategorydv>
+			</bonus>
+		</power>
+    </powers>
+</chummer>
