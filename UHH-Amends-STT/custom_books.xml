@@ -44,5 +44,10 @@
             <name>A Light in the Dark</name>
             <code>ALitD</code>
         </book>
+        <book>
+            <id>922B10C8-5FA3-4228-B6F6-D47C22D4A34C</id>
+            <name>UHH-Custom-Content</name>
+            <code>UHHCC</code>
+        </book>
     </books>
 </chummer>

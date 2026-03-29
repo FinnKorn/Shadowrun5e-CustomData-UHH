@@ -63,5 +63,293 @@
 			<page>1</page>
 			<notes>If ever your Magic rating changes, you must remove and re-add this quality to ensure your power points are properly calculated.</notes>
 		</quality>
+		<!-- Technomancer Masteries -->
+		<quality>
+			<id>101591a2-80e6-4f9e-87ce-c7184ef64201</id>
+			<name>Emulate Smartlink</name>
+			<karma>7</karma>
+			<doublecareer>False</doublecareer>
+			<category>Positive</category>
+			<bonus>
+				<smartlink>2</smartlink>
+			</bonus>
+			<required>
+				<allof>
+					<resenabled />
+				</allof>
+				<oneof>
+					<cyberware>Datajack</cyberware>
+					<echo>Skinlink</echo>
+				</oneof>
+			</required>
+			<source>UHHCC</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<id>705ee3f9-c2b8-4ded-b3e7-665f617f14ec</id>
+			<name>Emulate Simrig</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<allof>
+					<resenabled />
+				</allof>
+			</required>
+			<source>UHHCC</source>
+			<page>1</page>
+		</quality>
+		<!-- Magician Masteries -->
+		<quality>
+			<!-- Banisher -->
+			<id>e2f5194c-6b28-4d97-b82d-c7db8dd04a83</id>
+			<name>Banisher</name>
+			<karma>5</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+				</oneof>
+				<oneof>
+					<skill>
+						<name>Banishing</name>
+						<val>4</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>UHHCC</source>
+			<notes>Characters with this quality take drain equal to spirit's hits instead of hits times 2 when they achieve no net hits during a banishing test.</notes>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Advanced Banisher -->
+			<id>844a8f28-0988-47be-a6fc-128cf1f37340</id>
+			<name>Advanced Banisher</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+				</oneof>
+				<allof>
+					<skill>
+						<name>Banishing</name>
+						<val>6</val>
+					</skill>
+					<quality>Banisher</quality>
+				</allof>
+			</required>
+			<source>UHHCC</source>
+			<notes>Characters with this quality apply a temporary penalty to the spirit's Force equal to net hits from banishing test; penalty lasts for 2 combat turns.</notes>
+			<page>0</page>
+		</quality>
+		<quality>
+			<!-- Dedicated Alchemist -->
+			<id>5437b638-b808-44d4-a8bc-29a6b6355887</id>
+			<name>Dedicated Alchemist</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<canbuywithspellpoints>True</canbuywithspellpoints>
+			<costdiscount>
+				<required>
+					<oneof>
+						<quality>Apprentice</quality>
+						<quality>Aspected Magician</quality>
+						<quality>Enchanter</quality>
+						<quality>Explorer</quality>
+					</oneof>
+				</required>
+				<value>-5</value>
+			</costdiscount>
+			<doublecareer>False</doublecareer>
+			<bonus>
+				<freespells skill="Alchemy" />
+				<newspellkarmacost type="Preparations">-1</newspellkarmacost>
+				<skilldisable>Spellcasting</skilldisable>
+			</bonus>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+				</oneof>
+				<oneof>
+					<skill>
+						<name>Alchemy</name>
+						<val>1</val>
+					</skill>
+				</oneof>
+			</required>
+			<forbidden>
+				<oneof>
+					<quality>Dedicated Conjurer</quality>
+					<quality>Dedicated Spellslinger</quality>
+				</oneof>
+			</forbidden>
+			<source>UHHCC</source>
+			<page>0</page>
+		</quality>
+
+		<!-- Random Vorteile-->
+		<quality>
+			<!-- Dabbler -->
+			<id>25c8cbe5-758c-44a9-b926-9e05732d6e8d</id>
+			<name>Dabbler</name>
+			<karma>4</karma>
+			<category>Positive</category>
+			<bonus>
+				<skillcategorykarmacost>
+					<name>Interest</name>
+					<val>-1</val>
+					<min>3</min>
+					<condition>career</condition>
+				</skillcategorykarmacost>
+				<skillcategorypointcostmultiplier>
+					<name>Interest</name>
+					<val>50</val>
+				</skillcategorypointcostmultiplier>
+			</bonus>
+			<source>UHHCC</source>
+			<page>0</page>
+		</quality>		
+		<quality>
+			<!-- Bodyguard -->
+			<id>9754ad0e-be2d-4028-94c9-d62b53a030ba</id>
+			<name>Bodyguard</name>
+			<karma>15</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<attributetotal>
+						<!-- Still has to be changed to Judge Intentions Pool-->
+						<attributes>{CHA}+{INT}</attributes>
+						<val>7</val>
+					</attributetotal>
+					<skill>
+						<name>Perception</name>
+						<val>5</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>4e</source>
+			<page>1</page>
+			<notes>Protect the Principle costs 0 Edge. All other Limitations still apply.</notes>
+		</quality>
+		<quality>
+			<!-- Ronin -->
+			<id>ba67ba6b-3701-48ce-b0c8-6ca546c63f8e</id>
+			<name>Ronin</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<required>
+				<oneof>
+					<skill>
+						<name>Blades</name>
+						<val>6</val>
+					</skill>
+					<skill>
+						<name>Clubs</name>
+						<val>6</val>
+					</skill>
+					<skill>
+						<name>Unarmed Combat</name>
+						<val>6</val>
+					</skill>
+				</oneof>
+			</required>
+			<source>4e</source>
+			<page>1</page>
+			<notes>You can perform one Block/Parry/Interception action per combat turn without spending any initiative.</notes>
+		</quality>
+		<quality>
+			<!-- Like A Terminator -->
+			 <!-- Essence thingy probably wrong-->
+			<id>6e272c63-8f11-48e7-ab8f-8d66e53ac2f7</id>
+			<name>Like A Terminator</name>
+			<karma>10</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<magenabled />
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>UHHCC</source>
+			<page>0</page>
+		</quality>
+
+		<!-- Nachteile-->
+		 <quality>
+			<id>97d33a2f-7ce5-4209-bb09-404363d17cf3</id>
+			<name>Astral Wound</name>
+			<karma>-5</karma>
+			<category>Negative</category>
+			<required>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+				</oneof>
+			</required>
+			<source>UHHCC</source>
+			<page>1</page>
+		</quality>
+		<quality>
+			<!-- Vice -->
+			<id>60af9dc3-9446-4538-9d8b-4b3efca7bac8</id>
+			<name>Vice</name>
+			<karma>-3</karma>
+			<category>Negative</category>
+			<bonus>
+				<lifestylecost>10</lifestylecost>
+				<selecttext />
+			</bonus>
+			<limit>3</limit>
+			<source>UHHCC</source>
+			<page>0</page>
+		</quality>
+		<quality>
+			<id>c6ec1c1f-99aa-43bc-b1cc-8cacd15df862</id>
+			<name>Young Cannibal</name>
+			<karma>-10</karma>
+			<category>Negative</category>
+			<source>UHHCC</source>
+			<page>0</page>
+		</quality>
 	</qualities>
 </chummer>
