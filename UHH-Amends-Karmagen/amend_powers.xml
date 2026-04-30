@@ -5,7 +5,7 @@
 			<name>Critical Strike</name>
 			<bonus amendoperation="replace">
 				<weaponcategorydv>
-					<selectskill limittoskill="Astral Combat,Archery,Blades,Clubs,Unarmed Combat" />
+					<selectskill limittoskill="Astral Combat,Archery,Blades,Clubs,Unarmed Combat, Throwing Weapons" />
 					<bonus>1</bonus>
 				</weaponcategorydv>
 			</bonus>
