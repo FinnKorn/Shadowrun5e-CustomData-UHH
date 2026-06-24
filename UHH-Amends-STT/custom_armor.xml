@@ -439,5 +439,18 @@
       <page>1</page>
       <notes>Increases Reaction as if the user tuned the SOLDIER System Online</notes>
     </mod>
+    <mod>
+      <id>083deafa-389d-4da1-8c87-88d788e59a74 </id>
+      <name>Gorepack</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[4]</armorcapacity>
+      <avail>8R</avail>
+      <cost>1400</cost>
+      <source>UHHCC</source>
+      <page>1</page>
+      <notes>-4 auf den Perception Test um als Tod/Verletzt zu erscheinen, sowie die Möglichkeit wie bei Murder Armour reaktiv einen Performance Test zu machen um sich Tod zu stellen. </notes>
+    </mod>
 	</mods>
 </chummer>

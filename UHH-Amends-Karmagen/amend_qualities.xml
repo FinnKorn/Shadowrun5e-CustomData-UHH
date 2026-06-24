@@ -1,0 +1,24 @@
+<chummer>
+	<qualities>
+		<!-- Region Banned Qualities-->
+		 <quality>
+			<name>Groveler</name>
+			<hide />
+		 </quality>
+		<quality>
+			<!-- Revels in Murder -->
+			<name>Revels in Murder</name>
+			<hide />
+		</quality>
+		<!-- Region Infected Optional Powers -->
+		<quality>
+			<!-- Infected Optional Power: Regeneration -->
+			<name>Infected Optional Power: Regeneration</name>
+			<required amendoperation="Replace">
+				<allof>
+					<quality>Infected Optional Power: Lesser Regeneration</quality>
+				</allof>
+			</required>
+		</quality>
+	</qualities>
+</chummer>

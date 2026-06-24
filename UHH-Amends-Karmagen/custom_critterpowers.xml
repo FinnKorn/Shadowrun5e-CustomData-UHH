@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<powers>
+		<power>
+			<id>ba912194-b2bd-4dd9-8622-35be062719b9</id>
+			<name>Minor Regeneration</name>
+			<category>Paranormal</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+				<disablebiowaregrade>Standard</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+				<disablebiowaregrade>Used</disablebiowaregrade>
+				<disablebiowaregrade>Alphaware</disablebiowaregrade>
+				<disablebiowaregrade>Betaware</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way) (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Used (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Alphaware (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Betaware (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware (Adapsin)</disablebiowaregrade>
+				<disablecyberwaregrade>Standard</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used</disablecyberwaregrade>
+				<disablecyberwaregrade>Alphaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Betaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Alphaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+			</bonus>
+			<notes>May make a Regeneration test (BOD+MAG, heals Stun/Physical equal to net hits) every hour.</notes>
+			<source>UHHCC</source>
+			<page>0</page>
+		</power>
+		<power>
+			<id>b4f06eb5-3be0-4a98-9ec6-d478bf3550bf</id>
+			<name>Lesser Regeneration</name>
+			<category>Paranormal</category>
+			<type>P</type>
+			<action>Auto</action>
+			<range>Self</range>
+			<duration>Always</duration>
+			<bonus>
+				<disablebiowaregrade>Standard</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way)</disablebiowaregrade>
+				<disablebiowaregrade>Used</disablebiowaregrade>
+				<disablebiowaregrade>Alphaware</disablebiowaregrade>
+				<disablebiowaregrade>Betaware</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Standard (Burnout's Way) (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Used (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Alphaware (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Betaware (Adapsin)</disablebiowaregrade>
+				<disablebiowaregrade>Omegaware (Adapsin)</disablebiowaregrade>
+				<disablecyberwaregrade>Standard</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used</disablecyberwaregrade>
+				<disablecyberwaregrade>Alphaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Betaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Standard (Burnout's Way) (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Used (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Alphaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Betaware (Adapsin)</disablecyberwaregrade>
+				<disablecyberwaregrade>Omegaware (Adapsin)</disablecyberwaregrade>
+			</bonus>
+			<notes>Heals 1 stun or physical damage box every Combat Turn.</notes>
+			<source>UHHCC</source>
+			<page>0</page>
+		</power>
+	</powers>
+</chummer>
