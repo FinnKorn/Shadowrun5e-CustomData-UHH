@@ -221,7 +221,58 @@
 			</bonus>
 			<source>UHHCC</source>
 			<page>0</page>
-		</quality>		
+		</quality>
+		
+		<!-- Juicer-->
+		<quality>
+			<id>9754ad0e-be2d-4028-94c9-d62b53a030bd</id>
+			<name>Juicer</name>
+			<karma>20</karma>
+			<category>Positive</category>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>UHHCC</source>
+			<page>0</page>
+			<notes>Alle Addiction Thresholds von Drogen sind um 1 heruntergesetzt.</notes>
+		</quality>
+		
+		<!-- Flexible Drug User -->
+		<quality>
+			<id>9754ad0e-be2d-4028-94c9-d62b53a030bc</id>
+			<name>Flexible Drug User</name>
+			<karma>3</karma>
+			<category>Positive</category>
+			<limit>8</limit>
+			<doublecareer>False</doublecareer>
+			<forbidden>
+				<oneof>
+					<quality>Adept</quality>
+					<quality>Aspected Magician</quality>
+					<quality>Enchanter</quality>
+					<quality>Explorer</quality>
+					<quality>Apprentice</quality>
+					<quality>Magician</quality>
+					<quality>Mystic Adept</quality>
+					<resenabled />
+				</oneof>
+			</forbidden>
+			<source>UHHCC</source>
+			<page>0</page>
+			<notes>Erlaubt einen Willpower plus Rating statt den Normalen Test für Addiciton Tests zu würfeln.</notes>
+		</quality>
+
+
 		<quality>
 			<!-- Bodyguard -->
 			<id>9754ad0e-be2d-4028-94c9-d62b53a030ba</id>
